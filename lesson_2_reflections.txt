@@ -3,3 +3,17 @@ It creates a file called .git in the directory and stores the matadata in it to 
 We need it for version control, for making commits
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
+The staging area contains the file or (logically-related) files that are ready to be committed (for tracking) to the git repository. The working directory contains all the files -- those about to be committed and those that are not yet ready for committing to the repository of the project.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can use git diff and git diff --staged to compare working directory, staging area and most recent commit in the repository
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Helpful when making experimental changes or when exploring solutions without touching any of the content of the actual master branch. Branching useful for "context-switching" on the project.
+
+How do the diagrams help you visualize the branch structure?
+Graphically representing the branch structure of a repository helps on identifying commits that are reachable and which are unreachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together results in the combining of all the appropriate changes into one single master branch node. 
+The combined branches result in the combining of commit histories of the two branches.  When displayed using "git log", the commit history are displayed in proper time sequence.

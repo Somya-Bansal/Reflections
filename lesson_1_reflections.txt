@@ -9,3 +9,17 @@ more efficient programmer in the long term?
 
 We can know what changes were made at what point og time. It makes it easy to 
 retrace our steps if we have made a mistake in one of the older version.
+
+Q.	What do you think are the pros and cons of manually choosing when to create
+ a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+ Manually choosing when to commit allows us to follow the thumb rule :"One commit per logical change"
+ Automatic commit after a fixed time interval might commit even when no changes have been made or when
+ too many changes for a single commit
+
+Q.	Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+ while others, like Google Docs, treat each file separately?
+
+ In coding, it is often the case that a single unit of a project requires many file with code that are dependent or link with each other.
+
+Q.	How can you use the commands git log and git diff to view the history of files?

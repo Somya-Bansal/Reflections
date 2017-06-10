@@ -5,3 +5,6 @@ And also when you want to use a remote system to access your project.
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 If Git automatically stay up-to-date with remote, the aspect that allows us to keep a different version on the remote goes away. 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Fork is needed when you want to use somebody else's repository by making changes to your own copy of it and not disturb the original. Also the link to the original repository will be present in your forked repository.
+

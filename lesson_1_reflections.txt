@@ -23,3 +23,11 @@ Q.	Why do you think some version control systems, like Git, allow saving multipl
  In coding, it is often the case that a single unit of a project requires many file with code that are dependent or link with each other.
 
 Q.	How can you use the commands git log and git diff to view the history of files?
+
+git log shows all the commits made with their commit ids and the commit message
+git diff can be used to see differences between any two commits
+
+Q.	How might using version control make you more confident to make changes that could break something?
+
+ Knowing that it is relatively easy to revert to previous versions of the project, one can have greater confidence without fearing of breaking the entire project completely – that is, not able to revert back to an earlier working version.
+
